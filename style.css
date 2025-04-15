@@ -1,0 +1,265 @@
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 100%; 
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    margin: 3px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#herosection img{
+width: 100%;
+height: 700px;
+}
+#categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+#categories img{
+    width: 150px;
+    height: 200px;
+}
+#card1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+#card1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card1 h2{
+    text-align: center;
+}
+#card2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+#card2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card2 h2{
+    text-align: center;
+}
+
+#card1 img{
+  width: 200px;
+  height: 250px;
+}
+#card2 img{
+    width: 200px;
+    height: 250px;
+  }
+video{
+    width: 100%;
+    height: 600px;
+}
+ #categoriesheading{
+    width: 100%;
+    text-align: center;
+ }
+ button{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: small;
+ }
+ #select{
+    width: 100%;
+    text-align: center;
+ }
+ #types{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+
+ }
+ .clothingimages{
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+ }
+ #shopthelook{
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    
+ }
+#style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+#style1{
+    border: 2px solid white;
+    border-width: 5px;
+    height: 300px;
+    
+}
+#style2{
+    border: 2px solid white;
+    border-width: 5px;
+    height: 400px;
+}
+#style3{
+    border: 2px solid white;
+    border-width: 5px;
+    height: 500px;
+}
+#style4{
+    border: 2px solid white;
+    border-width: 5px;
+    height: 400px;
+}
+#style5{
+    border: 2px solid white;
+    border-width: 5px;
+    height: 300px;
+}
+#footer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+#stayintouchlinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#socialmedia{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px
+}
+#socialmedia h2{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#information h2{
+    margin: 10px;
+    padding: 10px;
+}
+#information{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px
+}
+#downloadimg{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#footer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+.lists{
+    margin: 15px;
+
+}
+.lists li{
+    padding: 5px;
+    list-style-type: none;
+}
+
+
+/*@media only screen and (min-width:768px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    a{
+        padding: 1px;
+        margin: 1px;
+    }
+    header img{
+        width: 100px;
+    }
+    #shopthelook{
+        background-color: whitesmoke;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        width: 100%;   
+    }
+    #style{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 3px;
+        padding: 3px;
+        align-items: center;
+    }
+    #style1{
+        border: 2px solid white;
+        border-width: 5px;
+        height: 50px;
+        
+    }
+    #style2{
+        border: 2px solid white;
+        border-width: 5px;
+        height: 70px;
+    }
+    #style3{
+        border: 2px solid white;
+        border-width: 5px;
+        height: 80px;
+    }
+    #style4{
+        border: 2px solid white;
+        border-width: 5px;
+        height: 70px;
+    }
+    #style5{
+        border: 2px solid white;
+        border-width: 5px;
+        height: 50px;
+}*/
+@media screen and (max-width: 769px) and (min-width: 319px){
+    header a{
+        font-size: 10px;
+    }
+}
+
+ 
